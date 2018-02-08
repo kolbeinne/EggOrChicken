@@ -6,6 +6,10 @@
 *.user
 *.userosscache
 *.sln.docstates
+#KE added the 3 below
+*.vcproj.*.user
+*.ncb
+*.aps
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -45,8 +49,8 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
-*_i.c
-*_p.c
+# *_i.c  //KE
+# *_p.c
 *_i.h
 *.ilk
 *.meta
